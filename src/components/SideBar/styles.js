@@ -22,33 +22,13 @@ export const styles = {
     alignItems: "center"
   },
   avatarContainer: {
-    borderRadius: 20,
-    border: `2px solid ${color.theme}`,
-    background: "#fff",
-    height: 85,
-    width: 85,
-    boxSizing: "unset",
-    "& img": {
-      borderRadius: 20,
-      height: "calc(100% - 8px)",
-      width: "calc(100% - 8px)",
-      boxSizing: "unset",
-      margin: 4
-    }
+    ...commonCss.profileAvatar
   },
   userName: {
-    fontSize: fontsize.base,
-    fontFamily: fonts.main,
-    color: color.dark,
-    fontWeight: fontWeight.bold,
-    marginTop: 16
+    ...commonCss.profileUserName
   },
   role: {
-    fontSize: fontsize.small,
-    color: color.lightGrey,
-    fontWeight: fontWeight.regular,
-    fontFamily: fonts.main,
-    marginTop: 5
+    ...commonCss.profileUserRole
   },
   department: {
     fontSize: fontsize.small,
@@ -90,7 +70,8 @@ export const styles = {
     textTransform: "capitalize"
   },
   navItemTextActive: {
-    color: color.dark
+    color: color.dark,
+    fontWeight: fontWeight.bold
   },
   badge: {
     right: -60,

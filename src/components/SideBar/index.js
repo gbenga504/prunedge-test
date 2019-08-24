@@ -126,7 +126,7 @@ class SideBar extends React.PureComponent {
           </div>
           <Typography
             variant="body2"
-            className={{ body2: classes.navItemText }}
+            classes={{ body2: classes.navItemText }}
           >
             Logout
           </Typography>
