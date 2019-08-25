@@ -23,11 +23,11 @@ class EditProfileView extends React.PureComponent {
 
   render() {
     let { classes } = this.props,
-      inputTopSpacing = { marginTop: 15 };
+      inputTopSpacing = { marginTop: 12 };
 
     return (
       <div className={classes.container}>
-        <div style={{ position: "relative", width: "auto", marginBottom: 50 }}>
+        <div style={{ position: "relative", width: "auto", marginBottom: 40 }}>
           <Typography variant="body1" classes={{ body1: classes.title }}>
             Edit Profile
           </Typography>
@@ -51,7 +51,7 @@ class EditProfileView extends React.PureComponent {
         <Input
           label="Phone Number"
           containerStyle={inputTopSpacing}
-          type="number"
+          type="tel"
           name="phoneNumber"
           required={true}
           onChange={this.handleChange}

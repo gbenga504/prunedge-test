@@ -4,6 +4,7 @@ export const styles = {
   container: {
     ...commonCss.flexColumn,
     padding: 22,
+    paddingBottom: 50,
     background: "#fff",
     width: "46%",
     borderRadius: 4,

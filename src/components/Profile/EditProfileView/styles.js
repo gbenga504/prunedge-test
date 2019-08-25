@@ -10,7 +10,8 @@ export const styles = {
     marginLeft: "1.5%",
     height: "max-content",
     boxShadow: "0px 2px 24px rgba(0, 0, 0, 0.04)",
-    marginBottom: 20
+    marginBottom: 20,
+    paddingBottom: 40
   },
   title: {
     ...commonCss.title
@@ -24,7 +25,8 @@ export const styles = {
   submitButton: {
     display: "flex",
     alignSelf: "flex-end",
-    marginTop: 40,
+    marginTop: 36,
+    width: 100,
     textTransform: "capitalize"
   },
   menuItemRoot: {
