@@ -41,7 +41,7 @@ export const styles = {
     ...commonCss.flex,
     width: "100%",
     height: 48,
-    paddingLeft: 40,
+    paddingLeft: 23,
     cursor: "pointer"
   },
   navItemActive: {
@@ -56,7 +56,7 @@ export const styles = {
     }
   },
   icon: {
-    fontSize: 26,
+    fontSize: 20,
     color: color.lightGrey,
     marginRight: 10
   },
@@ -74,7 +74,7 @@ export const styles = {
     fontWeight: fontWeight.bold
   },
   badge: {
-    right: -60,
+    right: -65,
     padding: "0px 7px",
     backgroundColor: color.theme
   },

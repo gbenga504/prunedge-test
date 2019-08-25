@@ -13,7 +13,7 @@ class EditProfileView extends React.PureComponent {
     email: "",
     phoneNumber: "",
     gender: "male",
-    position: "",
+    position: "ui/ux designer",
     homeAddress: ""
   };
 
@@ -22,7 +22,8 @@ class EditProfileView extends React.PureComponent {
   };
 
   render() {
-    let { classes } = this.props;
+    let { classes } = this.props,
+      inputTopSpacing = { marginTop: 15 };
 
     return (
       <div className={classes.container}>
@@ -41,7 +42,7 @@ class EditProfileView extends React.PureComponent {
         />
         <Input
           label="Email"
-          containerStyle={{ marginTop: 20 }}
+          containerStyle={inputTopSpacing}
           type="email"
           name="email"
           required={true}
@@ -49,7 +50,7 @@ class EditProfileView extends React.PureComponent {
         />
         <Input
           label="Phone Number"
-          containerStyle={{ marginTop: 20 }}
+          containerStyle={inputTopSpacing}
           type="number"
           name="phoneNumber"
           required={true}
@@ -59,31 +60,48 @@ class EditProfileView extends React.PureComponent {
           <Input
             label="Gender"
             halfInput={true}
-            containerStyle={{ marginTop: 20, marginRight: 5 }}
+            containerStyle={{ ...inputTopSpacing, marginRight: 5 }}
             type="text"
             select={true}
+            value={this.state.gender}
             name="gender"
             required={true}
             onChange={this.handleChange}
           >
-            <MenuItem value="male">Male</MenuItem>
-            <MenuItem value="female">Female</MenuItem>
+            <MenuItem value="male" classes={{ root: classes.menuItemRoot }}>
+              Male
+            </MenuItem>
+            <MenuItem value="female" classes={{ root: classes.menuItemRoot }}>
+              Female
+            </MenuItem>
           </Input>
           <Input
             label="Position"
             halfInput={true}
-            containerStyle={{ marginTop: 20, marginLeft: 5 }}
+            containerStyle={{ ...inputTopSpacing, marginLeft: 5 }}
             type="text"
             select={true}
             name="position"
+            value={this.state.position}
             required={true}
             onChange={this.handleChange}
           >
-            <MenuItem value="ui/ux designer">UI/UX Designer</MenuItem>
-            <MenuItem value="frontend software engineer">
+            <MenuItem
+              value="ui/ux designer"
+              classes={{ root: classes.menuItemRoot }}
+            >
+              UI/UX Designer
+            </MenuItem>
+            <MenuItem
+              value="frontend software engineer"
+              classes={{ root: classes.menuItemRoot }}
+            >
               FrontEnd Software Engineer
             </MenuItem>
-            <MenuItem value="backend software engineer">
+            <MenuItem
+              value="backend software engineer"
+              classes={{ root: classes.menuItemRoot }}
+            >
               BackEnd Software Engineer
             </MenuItem>
           </Input>
@@ -94,13 +112,17 @@ class EditProfileView extends React.PureComponent {
           rows="5"
           rowsMax="3"
           maxLength="500"
-          containerStyle={{ marginTop: 20 }}
+          containerStyle={inputTopSpacing}
           type="text"
           name="homeAddress"
           required={true}
           onChange={this.handleChange}
         />
-        <Button variant="contained" color="primary" className={classes.submitButton}>
+        <Button
+          variant="contained"
+          color="primary"
+          className={classes.submitButton}
+        >
           Update
         </Button>
       </div>

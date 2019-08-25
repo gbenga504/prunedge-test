@@ -5,6 +5,7 @@ import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 
 import { styles } from "./styles";
+import { fontsize } from "../../Css";
 
 class Input extends React.PureComponent {
   static propTypes = {
@@ -27,6 +28,7 @@ class Input extends React.PureComponent {
         label,
         disabled,
         select,
+        value,
         rowsMax,
         rows,
         multiline
@@ -55,8 +57,11 @@ class Input extends React.PureComponent {
           fullWidth={true}
           multiline={multiline}
           margin="dense"
+          value={value}
           rows={rows ? rows : ""}
-          InputProps={{ style: { height: !multiline && 45 } }}
+          InputProps={{
+            style: { height: !multiline && 45, fontSize: fontsize.base }
+          }}
           rowsMax={rowsMax ? rowsMax : ""}
           variant="outlined"
           inputProps={{ "aria-label": "input" }}

@@ -1,5 +1,5 @@
 import { createMuiTheme } from "@material-ui/core/styles";
-import { color, fontWeight } from "./Css";
+import { color, fontWeight, fontsize } from "./Css";
 
 export const theme = createMuiTheme({
   palette: {
@@ -15,5 +15,8 @@ export const theme = createMuiTheme({
     useNextVariants: true,
     fontFamily: ["Lato", "sans-serif"].join(", "),
     fontWeight: fontWeight.regular
+  },
+  MuiTextField: {
+    fontSize: fontsize.base
   }
 });

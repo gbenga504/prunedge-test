@@ -1,14 +1,16 @@
-import { commonCss } from "../../../Css";
+import { commonCss, fontsize } from "../../../Css";
 
 export const styles = {
   container: {
     ...commonCss.flexColumn,
     padding: 22,
     background: "#fff",
-    width: "51%",
-    marginLeft: "3%",
+    width: "52.5%",
+    borderRadius: 4,
+    marginLeft: "1.5%",
     height: "max-content",
-    boxShadow: "0px 2px 24px rgba(0, 0, 0, 0.04)"
+    boxShadow: "0px 2px 24px rgba(0, 0, 0, 0.04)",
+    marginBottom: 20
   },
   title: {
     ...commonCss.title
@@ -22,6 +24,9 @@ export const styles = {
   submitButton: {
     display: "flex",
     alignSelf: "flex-end",
-    marginTop: 70
+    marginTop: 40
+  },
+  menuItemRoot: {
+    fontSize: fontsize.base
   }
 };

@@ -2,7 +2,7 @@ export const color = {
   theme: "#0C66FF",
   background: "#F3F5F7",
   lightGrey: "#9E9E9E",
-  grey: "#999",
+  grey: "#424242",
   dark: "#43536F",
   separator: "#F2F2F2",
   lightPurple: "#D0ABFE",
@@ -16,7 +16,7 @@ export const fontsize = {
   base: 14,
   medium: 16,
   large: 18,
-  title: 14
+  title: 12
 };
 
 export const fonts = {
@@ -47,6 +47,7 @@ export const commonCss = {
     fontSize: fontsize.title,
     color: color.dark,
     fontFamily: fonts.main,
+    letterSpacing: 1.5,
     fontWeight: fontWeight.bold,
     textTransform: "uppercase"
   },
@@ -81,7 +82,7 @@ export const commonCss = {
   },
   profileUserRole: {
     fontSize: fontsize.small,
-    color: color.lightGrey,
+    color: color.grey,
     fontWeight: fontWeight.regular,
     fontFamily: fonts.main,
     marginTop: 5
