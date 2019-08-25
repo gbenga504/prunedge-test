@@ -6,7 +6,7 @@ export const styles = {
     padding: 22,
     background: "#fff",
     width: "46%",
-    height: "auto",
+    height: "max-content",
     boxShadow: "0px 2px 24px rgba(0, 0, 0, 0.04)"
   },
   title: {

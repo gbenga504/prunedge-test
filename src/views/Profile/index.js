@@ -4,6 +4,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import { styles } from "./styles";
 import SideBar from "../../components/SideBar";
 import ProfileDetailsView from "../../components/Profile/ProfileDetailsView";
+import EditProfileView from "../../components/Profile/EditProfileView";
 
 class Profile extends React.PureComponent {
   render() {
@@ -14,6 +15,7 @@ class Profile extends React.PureComponent {
         <SideBar />
         <div className={classes.mainProfileContainer}>
           <ProfileDetailsView />
+          <EditProfileView />
         </div>
       </div>
     );
