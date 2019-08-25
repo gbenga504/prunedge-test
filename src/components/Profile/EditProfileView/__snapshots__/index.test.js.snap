@@ -1,0 +1,523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditProfileView renders the edit profile view 1`] = `
+<div
+  className="EditProfileView-container-1"
+>
+  <div
+    style={
+      Object {
+        "marginBottom": 40,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 EditProfileView-title-2"
+    >
+      Edit Profile
+    </p>
+    <span
+      className="EditProfileView-marker-3"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "width": "100%",
+      }
+    }
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 Input-label-37"
+    >
+      Full name
+    </p>
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontSize": 14,
+            "height": 45,
+          }
+        }
+      >
+        <input
+          aria-invalid={false}
+          aria-label="input"
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          rows=""
+          type="text"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-76 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-77"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "marginTop": 12,
+        "width": "100%",
+      }
+    }
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 Input-label-37"
+    >
+      Email
+    </p>
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontSize": 14,
+            "height": 45,
+          }
+        }
+      >
+        <input
+          aria-invalid={false}
+          aria-label="input"
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          rows=""
+          type="email"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-76 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-77"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "marginTop": 12,
+        "width": "100%",
+      }
+    }
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 Input-label-37"
+    >
+      Phone Number
+    </p>
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontSize": 14,
+            "height": 45,
+          }
+        }
+      >
+        <input
+          aria-invalid={false}
+          aria-label="input"
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          rows=""
+          type="tel"
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-76 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-77"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div
+    className="EditProfileView-row-4"
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "marginRight": 5,
+          "marginTop": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body2 Input-label-37"
+      >
+        Gender
+      </p>
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+      >
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+          onClick={[Function]}
+          style={
+            Object {
+              "fontSize": 14,
+              "height": 45,
+            }
+          }
+        >
+          <div
+            aria-haspopup="listbox"
+            className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense MuiSelect-outlined"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            Male
+          </div>
+          <input
+            aria-label="input"
+            rows=""
+            type="hidden"
+            value="male"
+          />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden={true}
+            className="PrivateNotchedOutline-root-76 MuiOutlinedInput-notchedOutline"
+            style={
+              Object {
+                "paddingLeft": 8,
+              }
+            }
+          >
+            <legend
+              className="PrivateNotchedOutline-legend-77"
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+            >
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&#8203;",
+                  }
+                }
+              />
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "marginLeft": 5,
+          "marginTop": 12,
+          "width": "50%",
+        }
+      }
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body2 Input-label-37"
+      >
+        Position
+      </p>
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+      >
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+          onClick={[Function]}
+          style={
+            Object {
+              "fontSize": 14,
+              "height": 45,
+            }
+          }
+        >
+          <div
+            aria-haspopup="listbox"
+            className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense MuiSelect-outlined"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            UI/UX Designer
+          </div>
+          <input
+            aria-label="input"
+            rows=""
+            type="hidden"
+            value="ui/ux designer"
+          />
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root MuiSelect-icon"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 10l5 5 5-5z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden={true}
+            className="PrivateNotchedOutline-root-76 MuiOutlinedInput-notchedOutline"
+            style={
+              Object {
+                "paddingLeft": 8,
+              }
+            }
+          >
+            <legend
+              className="PrivateNotchedOutline-legend-77"
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+            >
+              <span
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&#8203;",
+                  }
+                }
+              />
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "marginTop": 12,
+        "width": "100%",
+      }
+    }
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 Input-label-37"
+    >
+      Home Address
+    </p>
+    <div
+      className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+    >
+      <div
+        className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontSize": 14,
+            "height": false,
+          }
+        }
+      >
+        <textarea
+          aria-invalid={false}
+          aria-label="input"
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={true}
+          rows="5"
+          style={
+            Object {
+              "height": undefined,
+              "overflow": null,
+            }
+          }
+        />
+        <textarea
+          aria-hidden={true}
+          className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+          readOnly={true}
+          style={
+            Object {
+              "height": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "top": 0,
+              "visibility": "hidden",
+            }
+          }
+          tabIndex={-1}
+        />
+        <fieldset
+          aria-hidden={true}
+          className="PrivateNotchedOutline-root-76 MuiOutlinedInput-notchedOutline"
+          style={
+            Object {
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <legend
+            className="PrivateNotchedOutline-legend-77"
+            style={
+              Object {
+                "width": 0.01,
+              }
+            }
+          >
+            <span
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "&#8203;",
+                }
+              }
+            />
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root EditProfileView-submitButton-5 MuiButton-contained MuiButton-containedPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Update
+    </span>
+  </button>
+</div>
+`;

@@ -1,0 +1,890 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile renders the profile view 1`] = `
+<div
+  className="Profile-container-1"
+>
+  <div
+    className="SideBar-container-3"
+  >
+    <div
+      className="SideBar-topSectionContainer-4"
+    >
+      <div
+        className="SideBar-userDetailsContainer-5"
+      >
+        <div
+          className="SideBar-avatarContainer-6"
+        >
+          <img
+            alt="user"
+            src="https://media.licdn.com/dms/image/C5603AQHnNE6t21CVkg/profile-displayphoto-shrink_100_100/0?e=1571875200&v=beta&t=DOFMyno8Ei2tZmecWIppdRxDcicR43lX-0k2Q7rktaU"
+          />
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 SideBar-userName-7"
+        >
+          Jaohn Samuel
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body2 SideBar-role-8"
+        >
+          Front Desk Officer
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body2 SideBar-department-9"
+        >
+          Finance
+        </p>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "marginTop": 38,
+          }
+        }
+      >
+        <div
+          className="SideBar-navItem-10"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root SideBar-icon-12"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root MuiTypography-body2 SideBar-navItemText-14"
+          >
+            dashboard
+          </p>
+        </div>
+        <div
+          className="SideBar-navItem-10"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root SideBar-icon-12"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root MuiTypography-body2 SideBar-navItemText-14"
+          >
+            documents
+          </p>
+        </div>
+        <div
+          className="SideBar-navItem-10"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root SideBar-icon-12"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M18 16v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-5 0h-2v-2h2v2zm0-4h-2V8h2v4zm-1 10c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2z"
+            />
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root MuiTypography-body2 SideBar-navItemText-14"
+          >
+            activity
+          </p>
+          <span
+            className="MuiBadge-root"
+          >
+            <span
+              className="MuiBadge-badge SideBar-badge-16 MuiBadge-colorPrimary"
+            >
+              12
+            </span>
+          </span>
+        </div>
+        <div
+          className="SideBar-navItem-10"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root SideBar-icon-12"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20.54 5.23l-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-.47 0-.88.21-1.16.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6.5c0-.48-.17-.93-.46-1.27zM12 17.5L6.5 12H10v-2h4v2h3.5L12 17.5zM5.12 5l.81-1h12l.94 1H5.12z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root MuiTypography-body2 SideBar-navItemText-14"
+          >
+            archive
+          </p>
+        </div>
+        <div
+          className="SideBar-navItem-10 SideBar-navItemActive-11"
+          onClick={[Function]}
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root SideBar-icon-12 SideBar-iconActive-13"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm7-7H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-1.75 9c0 .23-.02.46-.05.68l1.48 1.16c.13.11.17.3.08.45l-1.4 2.42c-.09.15-.27.21-.43.15l-1.74-.7c-.36.28-.76.51-1.18.69l-.26 1.85c-.03.17-.18.3-.35.3h-2.8c-.17 0-.32-.13-.35-.29l-.26-1.85c-.43-.18-.82-.41-1.18-.69l-1.74.7c-.16.06-.34 0-.43-.15l-1.4-2.42c-.09-.15-.05-.34.08-.45l1.48-1.16c-.03-.23-.05-.46-.05-.69 0-.23.02-.46.05-.68l-1.48-1.16c-.13-.11-.17-.3-.08-.45l1.4-2.42c.09-.15.27-.21.43-.15l1.74.7c.36-.28.76-.51 1.18-.69l.26-1.85c.03-.17.18-.3.35-.3h2.8c.17 0 .32.13.35.29l.26 1.85c.43.18.82.41 1.18.69l1.74-.7c.16-.06.34 0 .43.15l1.4 2.42c.09.15.05.34-.08.45l-1.48 1.16c.03.23.05.46.05.69z"
+            />
+          </svg>
+          <p
+            className="MuiTypography-root MuiTypography-body2 SideBar-navItemText-14 SideBar-navItemTextActive-15"
+          >
+            settings
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="SideBar-navItem-10"
+    >
+      <div
+        className="SideBar-logoutIcon-17"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root"
+          focusable="false"
+          role="presentation"
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 15,
+            }
+          }
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"
+          />
+        </svg>
+      </div>
+      <p
+        className="MuiTypography-root MuiTypography-body2 SideBar-navItemText-14"
+      >
+        Logout
+      </p>
+    </div>
+  </div>
+  <div
+    className="Profile-mainProfileContainer-2"
+  >
+    <div
+      className="ProfileDetailsVew-container-64"
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+            "width": "auto",
+          }
+        }
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 ProfileDetailsVew-title-65"
+        >
+          Profile
+        </p>
+        <span
+          className="ProfileDetailsVew-marker-66"
+        />
+      </div>
+      <div
+        className="ProfileDetailsVew-personalDetailsContainer-67"
+      >
+        <div
+          className="ProfileDetailsVew-avatarContainer-68"
+        >
+          <img
+            alt="user"
+            src="https://media.licdn.com/dms/image/C5603AQHnNE6t21CVkg/profile-displayphoto-shrink_100_100/0?e=1571875200&v=beta&t=DOFMyno8Ei2tZmecWIppdRxDcicR43lX-0k2Q7rktaU"
+          />
+          <div
+            className="ProfileDetailsVew-uploadContainer-76"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+            <input
+              onChange={[Function]}
+              type="file"
+            />
+          </div>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-userName-69"
+        >
+          Joahn Samuel
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-role-70"
+        >
+          Front Desk Officer
+        </p>
+      </div>
+      <div
+        className="ProfileDetailsVew-separator-71"
+      />
+      <div
+        className="ProfileDetailsVew-organizationContainer-72"
+      >
+        <div
+          className="profile__organization-single-unit"
+        >
+          <div
+            className="ProfileDetailsVew-iconContainer-73"
+            style={
+              Object {
+                "background": "#B073FD",
+                "borderColor": "#D0ABFE",
+              }
+            }
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M17 16l-4-4V8.82C14.16 8.4 15 7.3 15 6c0-1.66-1.34-3-3-3S9 4.34 9 6c0 1.3.84 2.4 2 2.82V12l-4 4H3v5h5v-3.05l4-4.2 4 4.2V21h5v-5h-4z"
+              />
+            </svg>
+          </div>
+          <p
+            className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-lightGreyText-74"
+          >
+            Department
+          </p>
+          <p
+            className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-darkText-75"
+          >
+            Accounting
+          </p>
+        </div>
+        <div
+          className="profile__organization-single-unit"
+        >
+          <div
+            className="ProfileDetailsVew-iconContainer-73"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+              />
+            </svg>
+          </div>
+          <p
+            className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-lightGreyText-74"
+          >
+            Unit
+          </p>
+          <p
+            className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-darkText-75"
+          >
+            Finance
+          </p>
+        </div>
+        <div
+          className="profile__organization-single-unit"
+        >
+          <div
+            className="ProfileDetailsVew-iconContainer-73"
+          >
+            <svg
+              aria-hidden="true"
+              className="MuiSvgIcon-root"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+              />
+            </svg>
+          </div>
+          <p
+            className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-lightGreyText-74"
+          >
+            Organization
+          </p>
+          <p
+            className="MuiTypography-root MuiTypography-body2 ProfileDetailsVew-darkText-75"
+          >
+            Prunedge
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="EditProfileView-container-77"
+    >
+      <div
+        style={
+          Object {
+            "marginBottom": 40,
+            "position": "relative",
+            "width": "auto",
+          }
+        }
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 EditProfileView-title-78"
+        >
+          Edit Profile
+        </p>
+        <span
+          className="EditProfileView-marker-79"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 Input-label-83"
+        >
+          Full name
+        </p>
+        <div
+          className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+        >
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontSize": 14,
+                "height": 45,
+              }
+            }
+          >
+            <input
+              aria-invalid={false}
+              aria-label="input"
+              className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              rows=""
+              type="text"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-122 MuiOutlinedInput-notchedOutline"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="PrivateNotchedOutline-legend-123"
+                style={
+                  Object {
+                    "width": 0.01,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "marginTop": 12,
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 Input-label-83"
+        >
+          Email
+        </p>
+        <div
+          className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+        >
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontSize": 14,
+                "height": 45,
+              }
+            }
+          >
+            <input
+              aria-invalid={false}
+              aria-label="input"
+              className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              rows=""
+              type="email"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-122 MuiOutlinedInput-notchedOutline"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="PrivateNotchedOutline-legend-123"
+                style={
+                  Object {
+                    "width": 0.01,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "marginTop": 12,
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 Input-label-83"
+        >
+          Phone Number
+        </p>
+        <div
+          className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+        >
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontSize": 14,
+                "height": 45,
+              }
+            }
+          >
+            <input
+              aria-invalid={false}
+              aria-label="input"
+              className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              rows=""
+              type="tel"
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-122 MuiOutlinedInput-notchedOutline"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="PrivateNotchedOutline-legend-123"
+                style={
+                  Object {
+                    "width": 0.01,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        className="EditProfileView-row-80"
+      >
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginRight": 5,
+              "marginTop": 12,
+              "width": "50%",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body2 Input-label-83"
+          >
+            Gender
+          </p>
+          <div
+            className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "height": 45,
+                }
+              }
+            >
+              <div
+                aria-haspopup="listbox"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense MuiSelect-outlined"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Male
+              </div>
+              <input
+                aria-label="input"
+                rows=""
+                type="hidden"
+                value="male"
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root MuiSelect-icon"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-122 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-123"
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "flexDirection": "column",
+              "marginLeft": 5,
+              "marginTop": 12,
+              "width": "50%",
+            }
+          }
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body2 Input-label-83"
+          >
+            Position
+          </p>
+          <div
+            className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+          >
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+              onClick={[Function]}
+              style={
+                Object {
+                  "fontSize": 14,
+                  "height": 45,
+                }
+              }
+            >
+              <div
+                aria-haspopup="listbox"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSelect MuiOutlinedInput-inputSelect MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense MuiSelect-outlined"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                UI/UX Designer
+              </div>
+              <input
+                aria-label="input"
+                rows=""
+                type="hidden"
+                value="ui/ux designer"
+              />
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root MuiSelect-icon"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+              <fieldset
+                aria-hidden={true}
+                className="PrivateNotchedOutline-root-122 MuiOutlinedInput-notchedOutline"
+                style={
+                  Object {
+                    "paddingLeft": 8,
+                  }
+                }
+              >
+                <legend
+                  className="PrivateNotchedOutline-legend-123"
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                >
+                  <span
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "&#8203;",
+                      }
+                    }
+                  />
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "column",
+            "marginTop": 12,
+            "width": "100%",
+          }
+        }
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body2 Input-label-83"
+        >
+          Home Address
+        </p>
+        <div
+          className="MuiFormControl-root MuiTextField-root MuiFormControl-marginDense MuiFormControl-fullWidth"
+        >
+          <div
+            className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-multiline MuiOutlinedInput-multiline MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontSize": 14,
+                "height": false,
+              }
+            }
+          >
+            <textarea
+              aria-invalid={false}
+              aria-label="input"
+              className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+              disabled={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              required={true}
+              rows="5"
+              style={
+                Object {
+                  "height": undefined,
+                  "overflow": null,
+                }
+              }
+            />
+            <textarea
+              aria-hidden={true}
+              className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMultiline MuiOutlinedInput-inputMultiline MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+              readOnly={true}
+              style={
+                Object {
+                  "height": 0,
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "top": 0,
+                  "visibility": "hidden",
+                }
+              }
+              tabIndex={-1}
+            />
+            <fieldset
+              aria-hidden={true}
+              className="PrivateNotchedOutline-root-122 MuiOutlinedInput-notchedOutline"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                }
+              }
+            >
+              <legend
+                className="PrivateNotchedOutline-legend-123"
+                style={
+                  Object {
+                    "width": 0.01,
+                  }
+                }
+              >
+                <span
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "&#8203;",
+                    }
+                  }
+                />
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root EditProfileView-submitButton-81 MuiButton-contained MuiButton-containedPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Update
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
