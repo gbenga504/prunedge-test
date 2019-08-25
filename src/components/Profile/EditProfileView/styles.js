@@ -24,7 +24,8 @@ export const styles = {
   submitButton: {
     display: "flex",
     alignSelf: "flex-end",
-    marginTop: 40
+    marginTop: 40,
+    textTransform: "capitalize"
   },
   menuItemRoot: {
     fontSize: fontsize.base
